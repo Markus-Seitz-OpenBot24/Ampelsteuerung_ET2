@@ -1,0 +1,36 @@
+## do this one time at the beginning ##
+
+-> git config --global user.name "Markus"
+-> git config --global user.email markusseitz48@gmail.com
+
+
+## initialize folder with git and save progress ##
+
+-> git init
+-> git add .
+-> git commit -m "first commit" // add description for what you did between ""
+
+
+## clone remote repository ##
+
+-> git clone "link"
+
+
+## push files in your github repository ##
+
+-> git remote add origin https://github.com/Markus-Seitz-OpenBot24/OpenBot_Project_2024.git
+-> git branch -M main
+-> git push -u origin main
+
+
+## pull files from github repository ##
+
+-> git pull origin master
+
+
+## create new branch ##
+
+-> git checkout -b markus // add new "environment", so changes don't affect the main code
+
+
+
